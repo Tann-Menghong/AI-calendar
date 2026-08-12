@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ប្រតិទិន AI</string>
+
+    <!-- Titles -->
+    <string name="title_capture">បន្ថែមដោយ AI</string>
+    <string name="title_settings">ការកំណត់</string>
+    <string name="title_new_event">ព្រឹត្តិការណ៍ថ្មី</string>
+    <string name="title_edit_event">កែព្រឹត្តិការណ៍</string>
+
+    <!-- Actions -->
+    <string name="action_add_event">បន្ថែម</string>
+    <string name="action_back">ត្រឡប់</string>
+    <string name="action_save">រក្សាទុក</string>
+    <string name="action_save_all">រក្សាទុកទាំងអស់</string>
+    <string name="action_discard">បោះបង់</string>
+    <string name="action_delete">លុប</string>
+    <string name="action_undo">ត្រឡប់វិញ</string>
+    <string name="action_ok">យល់ព្រម</string>
+    <string name="action_cancel">បោះបង់</string>
+    <string name="action_dismiss">បិទ</string>
+    <string name="action_today">ថ្ងៃនេះ</string>
+    <string name="action_previous_month">ខែមុន</string>
+    <string name="action_next_month">ខែក្រោយ</string>
+    <string name="action_extract_events">ស្វែងរកព្រឹត្តិការណ៍</string>
+    <string name="action_take_photo">កាមេរ៉ា</string>
+    <string name="action_pick_photo">វិចិត្រសាល</string>
+    <string name="action_clear_photo">លុបរូបភាព</string>
+    <string name="action_start_listening">ចាប់ផ្តើមនិយាយ</string>
+    <string name="action_stop_listening">ឈប់</string>
+    <string name="action_set_up">រៀបចំ</string>
+    <string name="action_import_model">នាំចូលម៉ូដែល</string>
+    <string name="action_download_model">ទាញយក</string>
+    <string name="action_remove_model">លុបម៉ូដែល</string>
+    <string name="action_start_download">ចាប់ផ្តើមទាញយក</string>
+    <string name="action_use_this_url">ប្រើមួយនេះ</string>
+    <string name="action_install_khmer_ocr">ដំឡើងការអានអក្សរខ្មែរ</string>
+    <string name="action_remove_khmer_ocr">លុបការអានអក្សរខ្មែរ</string>
+
+    <!-- Capture -->
+    <string name="capture_text">អក្សរ</string>
+    <string name="capture_voice">សំឡេង</string>
+    <string name="capture_photo">រូបភាព</string>
+    <string name="field_describe_event">ពិពណ៌នាព្រឹត្តិការណ៍</string>
+    <string name="field_transcript">អ្វីដែលអ្នកបាននិយាយ</string>
+    <string name="field_recognised_text">អក្សរដែលរកឃើញក្នុងរូបភាព</string>
+    <string name="hint_text_example">ជួបលោកគ្រូ ថ្ងៃស្អែក ម៉ោង ៣ រសៀល នៅសាលា</string>
+    <string name="hint_text_help">សរសេរជាភាសាខ្មែរ ឬអង់គ្លេស។ ពាក្យដូចជា «ថ្ងៃស្អែក» ឬ «សប្តាហ៍ក្រោយ» នឹងគណនាតាមថ្ងៃនេះ។</string>
+    <string name="voice_tap_to_speak">ចុចដើម្បីនិយាយ</string>
+    <string name="voice_listening">កំពុងស្តាប់…</string>
+    <string name="drafts_heading">រកឃើញ %1$d ព្រឹត្តិការណ៍</string>
+    <string name="draft_date_guessed">រកមិនឃើញកាលបរិច្ឆេទ — សូមពិនិត្យមើល។</string>
+
+    <!-- Event fields -->
+    <string name="field_title">ចំណងជើង</string>
+    <string name="field_location">ទីកន្លែង</string>
+    <string name="field_notes">កំណត់ចំណាំ</string>
+    <string name="field_reminder">ការរំលឹក</string>
+    <string name="all_day">ពេញមួយថ្ងៃ</string>
+    <string name="agenda_empty">មិនមានកម្មវិធីទេ។ ចុច «បន្ថែម» ដើម្បីបង្កើត ឬប្រើសំឡេង ឬរូបភាព។</string>
+    <string name="event_deleted">បានលុបព្រឹត្តិការណ៍</string>
+
+    <string name="reminder_none">គ្មាន</string>
+    <string name="reminder_at_start">ពេលចាប់ផ្តើម</string>
+    <string name="reminder_one_hour">មុន ១ ម៉ោង</string>
+    <string name="reminder_minutes">មុន %1$d នាទី</string>
+
+    <!-- Model -->
+    <string name="model_ready">AI ក្នុងឧបករណ៍រួចរាល់៖ %1$s</string>
+    <string name="model_loading">កំពុងផ្ទុកម៉ូដែល…</string>
+    <string name="model_not_installed">មិនទាន់ដំឡើងម៉ូដែល AI — កំពុងប្រើកម្មវិធីអានកាលបរិច្ឆេទខ្មែរ/អង់គ្លេស។</string>
+    <string name="model_failed">មិនអាចផ្ទុកម៉ូដែល AI បានទេ។</string>
+    <string name="model_supports_vision">ម៉ូដែលនេះអាចអានរូបភាពដោយផ្ទាល់។</string>
+    <string name="model_explainer">ម៉ូដែលដំណើរការទាំងស្រុងក្នុងទូរស័ព្ទនេះ។ អ្វីដែលអ្នកសរសេរ និយាយ ឬថត មិនត្រូវបានផ្ញើទៅណាទេ។</string>
+    <string name="model_suggested_heading">ម៉ូដែលដែលណែនាំ</string>
+    <string name="field_model_url">តំណម៉ូដែល (.task)</string>
+    <string name="field_access_token">លេខសម្ងាត់ចូលប្រើ (បើមាន)</string>
+    <string name="field_access_token_hint">ត្រូវការសម្រាប់ការទាញយកដែលមានកំណត់ ដូចជា Gemma នៅលើ Hugging Face។</string>
+
+    <!-- OCR -->
+    <string name="ocr_khmer_installed">បានដំឡើងការអានអក្សរខ្មែរ</string>
+    <string name="ocr_khmer_not_installed">មិនទាន់ដំឡើងការអានអក្សរខ្មែរ</string>
+    <string name="ocr_khmer_missing">រូបភាពនេះមើលទៅជាអក្សរខ្មែរ។ សូមដំឡើងការអានអក្សរខ្មែរ។</string>
+    <string name="ocr_khmer_failed">មិនអាចដំឡើងការអានអក្សរខ្មែរបានទេ៖ %1$s</string>
+    <string name="ocr_explainer">អក្សរឡាតាំងអានបានភ្លាមៗ។ អក្សរខ្មែរត្រូវការឯកសារភាសាទំហំ ៤ MB។</string>
+    <string name="ocr_engine_used">អានដោយ %1$s</string>
+    <string name="ocr_engine_khmer">ការអានអក្សរខ្មែរ</string>
+    <string name="ocr_engine_latin">ការអានអក្សរឡាតាំង</string>
+
+    <!-- Notices -->
+    <string name="notice_rules_only">រកឃើញដោយកម្មវិធីអានកាលបរិច្ឆេទ។ ដំឡើងម៉ូដែល AI សម្រាប់ប្រយោគវែង។</string>
+    <string name="notice_model_failed">ម៉ូដែល AI មិនបានឆ្លើយតបទេ ដូច្នេះបានប្រើកម្មវិធីអានកាលបរិច្ឆេទជំនួស។</string>
+    <string name="notice_date_guessed">រកមិនឃើញកាលបរិច្ឆេទក្នុងអត្ថបទ ដូច្នេះបានប្រើថ្ងៃនេះ។</string>
+    <string name="error_cannot_read_image">មិនអាចបើករូបភាពនោះបានទេ។</string>
+    <string name="error_nothing_found">រកមិនឃើញព្រឹត្តិការណ៍ក្នុងអត្ថបទនោះទេ។</string>
+
+    <!-- Speech errors -->
+    <string name="speech_error_audio">មានបញ្ហាមីក្រូហ្វូន។</string>
+    <string name="speech_error_permission">ត្រូវការការអនុញ្ញាតមីក្រូហ្វូន។</string>
+    <string name="speech_error_network">គ្មានការតភ្ជាប់។ សូមដំឡើងឯកសារសំឡេងក្រៅបណ្តាញក្នុងការកំណត់ប្រព័ន្ធ។</string>
+    <string name="speech_error_no_match">មិនអាចស្តាប់បានទេ។ សូមព្យាយាមម្តងទៀត។</string>
+    <string name="speech_error_busy">កម្មវិធីស្តាប់កំពុងជាប់រវល់។</string>
+    <string name="speech_error_timeout">មិនឮសំឡេងទេ។</string>
+    <string name="speech_error_generic">ការស្តាប់សំឡេងបរាជ័យ។</string>
+
+    <!-- Settings -->
+    <string name="settings_section_model">AI ក្នុងឧបករណ៍</string>
+    <string name="settings_section_ocr">ការអានអក្សរពីរូបភាព</string>
+    <string name="settings_section_voice">សំឡេង</string>
+    <string name="settings_section_calendar">ប្រតិទិន</string>
+    <string name="settings_speech_language">ភាសាសម្រាប់និយាយ</string>
+    <string name="settings_speech_offline_hint">ដើម្បីនិយាយដោយគ្មានអ៊ីនធឺណិត សូមទាញយកឯកសារសំឡេងក្រៅបណ្តាញក្នុងការកំណត់ Android។</string>
+    <string name="settings_week_starts_monday">ចាប់ផ្តើមសប្តាហ៍ថ្ងៃច័ន្ទ</string>
+    <string name="settings_default_reminder">ការរំលឹកលំនាំដើម</string>
+    <string name="settings_use_llm">ប្រើម៉ូដែល AI</string>
+    <string name="settings_use_llm_hint">បិទ ដើម្បីប្រើតែកម្មវិធីអានកាលបរិច្ឆេទរហ័ស។</string>
+    <string name="settings_privacy_note">អ្វីៗទាំងអស់ស្ថិតនៅក្នុងឧបករណ៍នេះ។ គ្មានគណនី គ្មានម៉ាស៊ីនមេ គ្មានការតាមដានទេ។</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_reminders">ការរំលឹកព្រឹត្តិការណ៍</string>
+    <string name="notification_channel_reminders_description">ជូនដំណឹងមុនព្រឹត្តិការណ៍ចាប់ផ្តើម</string>
+    <string name="notification_fallback_title">ព្រឹត្តិការណ៍ជិតមកដល់</string>
+    <string name="notification_detail_separator">" · "</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <include domain="database" path="ai-calendar.db" />
+    <include domain="sharedpref" path="." />
+    <!-- The model bundle is hundreds of megabytes and is re-downloadable. -->
+    <exclude domain="file" path="models/" />
+    <exclude domain="file" path="tesseract/" />
+</full-backup-content>

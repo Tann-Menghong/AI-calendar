@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Photos taken by the camera app land here before OCR reads them. -->
+    <cache-path name="captures" path="captures/" />
+</paths>
